@@ -1,4 +1,9 @@
-
+import numpy as np
+import random
+import networkx as nx
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D  # Import for 3D plotting
+from collections import Counter
 def cartesian_from_4d(lattice4id):
     basispoints=np.array([[0,0,0],[2.26*np.sqrt(3)/2,-2.26/2,1.06]])
     LatticeVectors=np.array([[2.26*np.sqrt(3),0,0],[2.26*np.sqrt(3)/2,2.26*3/2,0],[0,0,2.12]])
